@@ -24,14 +24,19 @@ img {
 }
 
 img.img-oval {
-	-webkit-clip-path:ellipse(40% 45% at 50% 50%);
+	-webkit-clip-path:ellipse(40% 45% at 50% 50%); /* http://bennettfeely.com/clippy/ */
 	
 	clip-path:ellipse(40% 45% at 50% 50%);
 }
 
 img.img-circle {
-	-webkit-clip-path:ellipse(50% 50% at 50% 50%);
-	clip-path:ellipse(50% 50% at 50% 50%);
+	-webkit-clip-path:circle(50% at 50% 50%);
+	clip-path:circle(50% at 50% 50%);
+	height: 150px;
+}
+
+hr {
+	width:25em;
 }
 
 div.header-intro {
@@ -62,19 +67,33 @@ div.header-fun {
 	    width: 100%;
 }
 
+div.header-thanks {
+	background: url("../Images/nyskyline.jpg") center top no-repeat;
+		background-size:cover;
+	    height: 500px;
+	    width: 100%;
+}
+
 div.header-name {
-    position: absolute;
-     margin: auto;
-     top: 0;
-     right: 0;
-     bottom: 0;
-     left: 0;
+     margin: 0 auto;
      width: 100%;
-     height: 50%;
 }
 
 div.header-layer {
     background-color: rgba(0, 0, 0, 0.59);
     width: 100%;
     height: 100%;
+}
+
+div.content{
+	padding:2em;
+}
+
+div.hobbies {
+	padding:5em;
+}
+
+div.column {
+	float:left;
+	width: 33%;
 }
