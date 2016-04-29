@@ -1,5 +1,13 @@
+body {
+	font-family: Droid Sans;
+}
+
 h1 {
 	text-align:center;
+}
+
+h1.section{
+	color:white;
 }
 
 h2 {
@@ -17,10 +25,56 @@ img {
 
 img.img-oval {
 	-webkit-clip-path:ellipse(40% 45% at 50% 50%);
+	
 	clip-path:ellipse(40% 45% at 50% 50%);
 }
 
 img.img-circle {
 	-webkit-clip-path:ellipse(50% 50% at 50% 50%);
 	clip-path:ellipse(50% 50% at 50% 50%);
+}
+
+div.header-intro {
+	background: url("../Images/mountains.png") center top no-repeat;
+		background-size:cover;
+	    height: 500px;
+	    width: 100%;
+}
+
+div.header-education {
+	background: url("../Images/jhbooks.png") center top no-repeat;
+		background-size:cover;
+	    height: 500px;
+	    width: 100%;
+}
+
+div.header-work {
+	background: url("../Images/comp_steth.png") center top no-repeat;
+		background-size:cover;
+	    height: 500px;
+	    width: 100%;
+}
+
+div.header-fun {
+	background: url("../Images/onion.png") center top no-repeat;
+		background-size:cover;
+	    height: 500px;
+	    width: 100%;
+}
+
+div.header-name {
+    position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 50%;
+}
+
+div.header-layer {
+    background-color: rgba(0, 0, 0, 0.59);
+    width: 100%;
+    height: 100%;
 }
