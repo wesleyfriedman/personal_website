@@ -14,6 +14,11 @@ h2 {
 	text-align:center;
 }
 
+h3 {
+	text-align:center;
+	color:gray;
+}
+
 p {
 	text-align:center;
 }
@@ -33,6 +38,14 @@ img.img-circle {
 	-webkit-clip-path:circle(50% at 50% 50%);
 	clip-path:circle(50% at 50% 50%);
 	height: 150px;
+}
+
+img.shield {
+	height:125px;
+}
+
+img.img-icon {
+	height: 32px;
 }
 
 hr {
@@ -96,6 +109,11 @@ div.hobbies {
 div.tri-column {
 	float:left;
 	width: 33%;
+}
+
+div.shield {
+	text-align:center;
+	padding:2em;
 }
 
 div.quad-column {
