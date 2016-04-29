@@ -93,7 +93,12 @@ div.hobbies {
 	padding:5em;
 }
 
-div.column {
+div.tri-column {
 	float:left;
 	width: 33%;
 }
+
+div.quad-column {
+	float:left;
+}
+
