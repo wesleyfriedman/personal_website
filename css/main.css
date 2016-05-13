@@ -30,7 +30,6 @@ img {
 
 img.img-oval {
 	-webkit-clip-path:ellipse(40% 45% at 50% 50%); /* http://bennettfeely.com/clippy/ */
-	
 	clip-path:ellipse(40% 45% at 50% 50%);
 }
 
